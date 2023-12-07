@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="317.0" style="-fx-background-color: #e6e5f7;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="462.0" prefWidth="317.0">
+         <children>
+            <HBox prefHeight="19.0" prefWidth="317.0" style="-fx-border-color: #b5b5b5; -fx-border-width: 0 0 0.5 0; -fx-background-color: #ffff;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="19.0" prefWidth="61.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9:41" textAlignment="CENTER" wrappingWidth="33.34115791320801">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="19.0" prefWidth="103.0" />
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="5.0" style="-fx-border-width: #b5b5b5;">
+                     <children>
+                        <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-audio-wave-24.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-wifi-30.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="29.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-battery-30.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="317.0" style="-fx-border-color: #b5b5b5; -fx-border-width: 0 0 0.5 0;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="43.0" prefWidth="44.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-back-26.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="50.0" prefWidth="50.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-avatar-48.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="99.0">
+                     <children>
+                        <VBox alignment="CENTER">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nguyễn Hữu Thế" />
+                              <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="99.0" spacing="5.0">
+                                 <children>
+                                    <Circle radius="4.0" stroke="BLACK" strokeType="INSIDE">
+                                       <fill>
+                                          <LinearGradient endX="1.0" endY="1.0">
+                                             <stops>
+                                                <Stop>
+                                                   <color>
+                                                      <Color red="0.11999999731779099" green="1.0" blue="0.4294821321964264" />
+                                                   </color>
+                                                </Stop>
+                                                <Stop offset="1.0">
+                                                   <color>
+                                                      <Color red="0.26854559779167175" green="0.9561403393745422" blue="0.2800055146217346" />
+                                                   </color>
+                                                </Stop>
+                                             </stops>
+                                          </LinearGradient>
+                                       </fill>
+                                    </Circle>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Online" />
+                                 </children>
+                                 <padding>
+                                    <Insets left="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="123.0" spacing="10.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-phone-50.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-video-call-50.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </HBox>
+            <VBox prefHeight="344.0" prefWidth="317.0" style="-fx-border-color: #b5b5b5; -fx-border-width: 0 0 0.5 0;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="40.0" prefWidth="317.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="51.0" style="-fx-background-color: ffff; -fx-background-radius: 5;" text="Today" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="317.0">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #7d68ff; -fx-background-radius: 10;" text=" Hello, How is it going? " textFill="WHITE" />
+                     </children>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="273.0" style="-fx-background-color: #7d68ff; -fx-background-radius: 10;" text=" It has been a long time since the last time we met " textAlignment="JUSTIFY" textFill="WHITE" />
+                     </children>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="317.0">
+                     <children>
+                        <Label prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #ff789f; -fx-background-radius: 10;" text=" Hi, It's not bad." />
+                     </children>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="73.0" prefWidth="317.0">
+                     <children>
+                        <VBox spacing="2.0">
+                           <children>
+                              <Label prefHeight="30.0" prefWidth="165.0" style="-fx-background-color: #ff789f; -fx-background-radius: 10;" text=" Yeah, do you have free time? " />
+                              <Label layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="187.0" style="-fx-background-color: #ff789f; -fx-background-radius: 10;" text=" Can we gooutside in other's day? " />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9:39" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="317.0">
+                     <children>
+                        <VBox prefHeight="21.0" prefWidth="43.0">
+                           <children>
+                              <Label prefHeight="30.0" prefWidth="43.0" style="-fx-background-color: #7d68ff; -fx-background-radius: 10;" text=" Sure!!!" textFill="WHITE" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9:41" textAlignment="RIGHT" wrappingWidth="43.0501708984375" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox prefHeight="48.0" prefWidth="317.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="48.0" prefWidth="44.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-picture-50.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="48.0" prefWidth="193.0">
+                     <children>
+                        <Label prefHeight="34.0" prefWidth="177.0" style="-fx-background-color: #ffff; -fx-background-radius: 10;" text="     Text Messages" textAlignment="CENTER" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="48.0" prefWidth="91.0" spacing="10.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-send-50.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8-mic-50.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
